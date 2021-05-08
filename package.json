@@ -3,12 +3,26 @@
 	"displayName": "Inspirational Quotes",
 	"description": "Get an inspirational quote, boost motivation for the next coding session",
 	"version": "0.0.1",
+	"icon": "images/icon.png",
+	"publisher": "coffeeio",
+	"author": "Mathias Grundtvig Andreasen <mgapcdev@gmail.com>",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"quotes",
+		"motivation"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MGApcDev/vscode-inspirational-quotes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MGApcDev/vscode-inspirational-quotes/issues"
+	},
 	"activationEvents": [
         "onCommand:inspirational-quotes.quote"
 	],
