@@ -10,14 +10,15 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:inspirational-quotes.helloWorld"
+        "onCommand:inspirational-quotes.quote"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "inspirational-quotes.helloWorld",
-				"title": "Hello World"
+				"command": "inspirational-quotes.quote",
+				"category": "Inspirational Quotes",
+				"title": "Get Quote"
 			}
 		]
 	},
